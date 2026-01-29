@@ -12,6 +12,9 @@ Epsilla integrates with Voyage AI with the following embedding models:
 
 | Name                                 | Dimensions          | Type     |
 | ------------------------------------ | ------------------- | -------- |
+| **voyageai/voyage-4**                | 1024 (configurable) | Standard |
+| **voyageai/voyage-4-lite**           | 1024 (configurable) | Standard |
+| **voyageai/voyage-4-large**          | 1024 (configurable) | Standard |
 | **voyageai/voyage-3.5**              | 1024 (configurable) | Standard |
 | **voyageai/voyage-3.5-lite**         | 1024 (configurable) | Standard |
 | **voyageai/voyage-3**                | 1024                | Standard |
@@ -22,7 +25,7 @@ Epsilla integrates with Voyage AI with the following embedding models:
 | **voyageai/voyage-lite-02-instruct** | 1024                | Standard |
 
 {% hint style="info" %}
-**voyage-3.5** and **voyage-3.5-lite** support configurable dimensions: 2048, 1024 (default), 512, and 256. They also support multiple quantization options (int8, uint8, binary, ubinary) for optimized storage and performance.
+**voyage-4**, **voyage-4-lite**, **voyage-4-large**, **voyage-3.5**, and **voyage-3.5-lite** support configurable dimensions: 2048, 1024 (default), 512, and 256. They also support multiple quantization options (int8, uint8, binary, ubinary) for optimized storage and performance.
 {% endhint %}
 
 ### Contextualized Embedding Models
